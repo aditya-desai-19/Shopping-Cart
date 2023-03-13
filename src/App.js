@@ -9,14 +9,14 @@ function App(){
         <div className="App">
             <ShopContextProvider>
             <Router>
-            {/*Navbar component is placed here because to render it on every page*/}
-            <Navbar />
-                {/*This are different routes */}
-                <Routes>
-                    <Route path="/" element={<Shop />}/>
-                    <Route path="/cart" element={<Cart />}/>
-                </Routes>
-            </Router>
+                {/*Navbar component is placed here because to render it on every page*/}
+                <Navbar />
+                    {/*This are different routes */}
+                    <Routes>
+                        <Route path="/" element={<Shop />}/>
+                        <Route path="/cart" element={<Cart />}/>
+                    </Routes>
+                </Router>
             </ShopContextProvider>
         </div>
     )
